@@ -1,266 +1,84 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html>
+  <head>
+    <title>Gourav Agrawal - Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <section id="main">
+        <header>
+          <span class="avatar"
+            ><img
+              src="images/avatar.png"
+              width="122px"
+              height="122px"
+              alt="headshot"
+          /></span>
+          <h1>Gourav Agrawal</h1>
+          <p>Software Developer</p>
+        </header>
+        <footer>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/gourav-agrawal"
+                class="icon brands fa-linkedin"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                href="assets/GouravAgrawalResume.pdf"
+                class="icon brands fa-file"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/akagrv"
+                target="_blank"
+                class="icon brands fa-github"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </footer>
+      </section>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gourav Agrawal - Web Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-</head>
-
-<body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <!-- <li>
-                <a href="#about">About</a>
-            </li> -->
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="copyright">
+          <li>Design: HTML5 UP</li>
         </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Gourav Agrawal</h1>
-            <h2>Software Engineer | Aspiring Technologist</h2>
-            <a href="GOURAV_AGRAWAL_RESUME.pdf" download="GOURAV_AGRAWAL_RESUME.pdf" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
+      </footer>
     </div>
-    <!-- End #lead -->
 
-    <!-- <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                    
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="August 2017 – July 2019">
-                <h3>BlackRock</h3>
-                <h4>Software Engineer</h4>
-                <ul>
-                    <h4>Snapshot Publisher</h4>
-                    <li>Led the initiative to replace 2 legacy application and created a web app using Angular 6, Java and Spring.</li>
-                    <li>Researched on Apache Ignite as a near-cache solution, leading to more than double the upsurge in performance and speed.</li>
-
-                    <h4>Snapshot Cache</h4>
-                    <li>Deployed RESTful web services using Spring Boot and oversaw the load testing and performance optimization for the API.</li>
-                    <li>Reduced the response time for large clients from 8-35s to 1-3s.</li>
-
-                    <h4>Aladdin for Corporate Treasury (aCT)</h4>
-                    <li>Fast-tracked the front-end development of aCT, meant to replace the third-party tool in turn saving approx. $1 million yearly.</li>
-                    <li>Designed wireframes and released multiple screens and features like bulk upload and admin dashboard as a part of it.</li>
-                      
-                    <h4>Snapshot Controller</h4>
-                    <li>Automated the manual efforts of deploying AUM and revenue publishes by developing a Spring Integration based application, aiding AUM and Financial Planning and Analytics team, reducing 45-man hours of work monthly.</li>
-                    <li>Engineered the application to work as a generic task dispatcher framework.</li>
-                </ul>
-            </div>
-
-            <div data-date="January 2017 – July 2017">
-                <h3>BlackRock</h3>
-                <h4>Software Engineer Intern</h4>
-                <ul>
-                    <li>Developed reusable web components using Angular along with Redux and Spring MVC to display key analytics.</li>
-                    <li>Set up a monorepo and enforced GitFlow Workflow to unify Jenkins build for all app-owners.</li>
-                    <li>Ensured more than 90% code coverage for frontend and backend using Jasmine/Karma and JUnit.</li>
-                    <li>Runner-up (2nd) in HCK:KNIGHT, a hackathon organized during the end of internship for all the interns.</li>
-                </ul>
-            </div>
-
-            <div data-date="June 2016 – July 2016">
-                <h3>Cumbre Technology</h3>
-                <h4>Intern</h4>
-                <ul>
-                    <li>Developed and released 2 application features i.e. course modification and course list/view using Laravel.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>Arizona State University</h3>
-            <span class="education-date">Aug 2019 - May 2021</span>
-            <h4>Master of Science in Computer Science</h4>
-            <p>
-                <b>Related Courses: </b> Statistical Machine Learning, Artificial Intelligence, Data Mining
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>Vellore Institute of Technology (VIT)</h3>
-            <span class="education-date">Jul 2013 - May 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large no-image">
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large no-image">
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Java</li>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>Angular 6</li>
-            <li>Apache Ignite</li>
-            <li>Spring</li>
-            <li>Redux</li>
-            <li>Spring Boot</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Bootstrap</li>
-            <li>SQL</li>
-            <li>Webpack</li>
-            <li>Pandas</li>
-            <li>Seaborn</li>
-            <li>Scikit-learn</li>
-            <li>PHP</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2019 Gourav Agrawal
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
-</body>
-
+    <!-- Scripts -->
+    <script>
+      if ("addEventListener" in window) {
+        window.addEventListener("load", function () {
+          document.body.className = document.body.className.replace(
+            /\bis-preload\b/,
+            ""
+          );
+        });
+        document.body.className += navigator.userAgent.match(/(MSIE|rv:11\.0)/)
+          ? " is-ie"
+          : "";
+      }
+    </script>
+  </body>
 </html>

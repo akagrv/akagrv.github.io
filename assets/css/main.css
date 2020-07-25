@@ -1027,6 +1027,7 @@ button:disabled,
 /* Wrapper */
 
 #particles {
+  position: relative;
   height: 100%;
 }
 

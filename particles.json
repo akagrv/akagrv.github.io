@@ -56,19 +56,19 @@
             "enable": true,
             "speed": 6,
             "direction": "none",
-            "random": false,
+            "random": true,
             "straight": false,
             "out_mode": "out",
-            "bounce": false,
+            "bounce": true,
             "attract": {
-                "enable": false,
+                "enable": true,
                 "rotateX": 600,
                 "rotateY": 1200
             }
         }
     },
     "interactivity": {
-        "detect_on": "canvas",
+        "detect_on": "window",
         "events": {
             "onhover": {
                 "enable": true,
@@ -76,7 +76,7 @@
             },
             "onclick": {
                 "enable": true,
-                "mode": "push"
+                "mode": "bubble"
             },
             "resize": true
         },
@@ -88,14 +88,14 @@
                 }
             },
             "bubble": {
-                "distance": 400,
-                "size": 40,
-                "duration": 2,
+                "distance": 150,
+                "size": 5,
+                "duration": 0.5,
                 "opacity": 8,
                 "speed": 3
             },
             "repulse": {
-                "distance": 200,
+                "distance": 100,
                 "duration": 0.4
             },
             "push": {
